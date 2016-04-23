@@ -271,7 +271,7 @@ html, body {
 		padding-left:20px;
 
 		img {
-			height:35px;
+			height: 60px;
 			margin:auto 0;
 		}
 	}
@@ -284,7 +284,7 @@ html, body {
 	z-index:200;
 	width:61.8%;
 	background: rgba(0,0,0,0.8);
-	height:100%;
+	height:60%;
 	@include transition(all 1s ease);
 		ul{
 		white-space: nowrap;
@@ -293,8 +293,9 @@ html, body {
 		font-weight: 500;
 		margin:0;
 		padding:25px;
+		margin-top: 15%;
 		li {
-			height: 50px;
+			height: 70px;
 			border-top: 1px solid #c9c9c9;
 			&:first-child {
 				border: none;
@@ -302,10 +303,10 @@ html, body {
 			a {
 				display:block;
 				text-decoration:none;
-				color:$theme_color_2;
+				color:$gold_rush;
 				font-weight: 600;
-				padding: 15px 0 15px 0;
-				&:active { color: $theme_color_1; }
+				padding: 25px 0 25px 0;
+				&:active { color: $danbai_color; }
 			}
 		}
 	}
@@ -390,8 +391,7 @@ html, body {
 		list-style:none;
 		display:inline-block;
 		white-space:nowrap;
-		padding-top:25px;
-		padding-left:0;
+		padding:15px;
 		margin:0;
 		li {
 			float:left;
@@ -511,8 +511,8 @@ html, body {
 ************************************/
 .gallery {
 	background:#F0EFEF;
-	padding:10px 5% 10px 5%;
-	padding-bottom:40px;
+	padding:15px 5% 20px 5%;
+	padding-bottom:10%;
 /*	border-top: 1px solid #333;
 	border-bottom: 1px solid #333;*/
 }
@@ -528,7 +528,7 @@ html, body {
 	@include display-flex();
 	@include flex-direction (column);
 	background:#F0EFEF;
-	padding: 15px 5% 15px 5%;
+	padding: 25px 5% 15px 5%;
 	margin:0;
 	width:100%;
 	@include transition(all 1s ease);

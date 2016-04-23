@@ -74,7 +74,7 @@ display: none;
 
 		<div class="tool_bar cevc pointer">
 			<div class="fix_test">
-				<img src="images/demo/logo_white.png" alt="logo" />
+				<img src="images/demo/logo.gif" alt="logo"/>
 				<div class="icon_menu" id="menu_icon"><i class="fa fa-bars"></i></div>
 				<div class="nav_bar">
 					<ul class="unlist_style">
