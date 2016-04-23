@@ -13,7 +13,14 @@ Tags: Dark cold colour scheme
 											MAIN SETUPS
 ===========================================================*/
 
-@import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+
+@font-face {
+	font-family:"lcfont";
+	src: url('font/AvenirNextLTPro-Regular.otf');
+}
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css');
 
 /************************************
 		Colour Scheme Selection
@@ -35,14 +42,14 @@ $gold_rush: #c5a069;
 ************************************/
 $href: #4A4a4a;
 $a_hover: #C5A069;
-$background_test: #222845;
+$background_test: #fff;
 
 /************************************
 		Font Style Setup
 ************************************/
 
 * {
-	font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-family: "lcfont","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 /*===========================================================
@@ -104,6 +111,63 @@ $background_test: #222845;
 	background-image: -webkit-linear-gradient($type);
 	background-image: -moz-linear-gradient($type);
 	background-image: linear-gradient($type);
+}
+
+@-webkit-keyframes fadeup {
+	0% {
+		opacity:0;
+		-webkit-transform:translateY(1rem);
+		transform:translateY(1rem)
+	}
+	100% {
+		opacity:1;
+		-webkit-transform:translateY(0);
+		transform:translateY(0)
+	}
+}
+@keyframes fadeup {
+	0% {
+		opacity:0;
+		-webkit-transform:translateY(1rem);
+		transform:translateY(1rem)
+	}
+	100% {
+		opacity:1;
+		-webkit-transform:translateY(0);
+		transform:translateY(0)
+	}
+}
+@-webkit-keyframes fadein {
+	0% {
+		opacity:0
+	}
+	100% {
+		opacity:1
+	}
+}
+@keyframes fadein {
+	0% {
+		opacity:0
+	}
+	100% {
+		opacity:1
+	}
+}
+.anim_fadeup {
+	-webkit-animation:fadeup 1200ms ease forwards;
+	animation:fadeup 1200ms ease forwards
+}
+.anim_fadein {
+	-webkit-animation:fadein 1200ms ease forwards;
+	animation:fadein 1200ms ease forwards
+}
+.anim_fadein--quick {
+	-webkit-animation:fadein 400ms ease forwards;
+	animation:fadein 400ms ease forwards
+}
+.anim_fadein--nav {
+	-webkit-animation:fadein 2000ms ease forwards;
+	animation:fadein 2000ms ease forwards
 }
 
 
@@ -272,6 +336,11 @@ html, body {
 	}
 }
 
+.anim_fadeup {
+	-webkit-animation: fadeup 1200ms ease forwards;
+	animation: fadeup 1200ms ease forwards;
+}
+
 
 .under_bk {
 	@include justify-content(space-around);
@@ -338,6 +407,7 @@ html, body {
 			}
 			a {
 				display:block;
+				color:#fff;
 /*				padding:0 13px;
 				padding-bottom:10px;*/
 			}
@@ -808,7 +878,8 @@ html, body {
 ************************************/
 footer {
 	width:100%;
-	background: $background_test;
+	background: #222845;
+	padding-top:20px;
 /*	border-top: 1px solid #1f3b70;*/
 p { color: #fff ; }
 	margin-top:40px;
@@ -819,13 +890,13 @@ p { color: #fff ; }
 */	position:relative;
 	max-width:1268px;
 	margin:0 auto;
-	min-height:265px;
+	min-height:165px;
 	.copyright {
 		display:block;
 		color: $danbai_color;
 		text-align: center;
 		font-size:0.75em;
-		margin-top:30px;
+		margin-top:5%;
 		span a {
 			color: #f0efef;
 		}

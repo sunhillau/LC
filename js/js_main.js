@@ -38,10 +38,22 @@ $(window).resize(backgroundResize);
 $(window).focus(backgroundResize);
 
 
+
+$(window).scroll(function() {
+   var hT = $('#scroll-to').offset().top,
+       hH = $('#scroll-to').outerHeight(),
+       wH = $(window).height(),
+       wS = $(this).scrollTop();
+   if (wS > (hT+hH-wH)){
+       $('#scroll-to').addClass('anim_fadein');
+   }
+});
+
+
 $(document).ready(function(){
 	backgroundResize();
-	
-    
+
+   
 	$('#menu_icon').click(function(){
 		$('.menu_overlay').toggleClass('menu_overlay_push');
 		$("#MobileMenuOverlay").hide();

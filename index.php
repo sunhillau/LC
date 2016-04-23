@@ -3,32 +3,12 @@
 ?>
 
 <!-- Page 2 -->
-<section class="second_page">
+<section class="second_page" id="scroll-to">
 
 
-	<h2>Company Profile</h2>
-	<div><p>Building your dream house can be sometimes stressful. At YC Building, we can make it so much easier as we are committed to listen to your needs and fulfil it in a professional way. With almost 10 years experience in residential development industry, we constantly provide outstanding quality products and services. Please feel free to contact us today for a complementary quote.</p></div>
-<!-- 	<div class="container_box">
-		<h2>Company Profile</h2>
-		<div class="little_line"></div>
-	</div>
-	<div class="row wwd">
-		<div class="col-sm-12 bkt1">
-			<img src="images/demo/head1.jpg" alt="family" />
-			<h4>CONTRACT HOME</h4>
-			<p>Building your dream house can be sometimes stressful. At YC Building, we can make it so much easier as we are committed to listen to your needs and fulfil it in a professional way. With almost 10 years experience in residential development industry, we constantly provide outstanding quality products and services. Please feel free to <a>contact us</a> today for a complementary quote.</p>
-		</div>
-		<div class="col-sm-4">
-			<img src="images/demo/head2.jpg" alt="family" />
-			<h4>HOME DESIGN</h4>
-			<p>YC Building offers customised building design for single and two stories home in all styles and sizes. Our team will work with you in selecting the right product based on your circumstances. We believe our final project speak by itself, and please browse the gallery section on this site for our finished projects, or simply contact us to arrange a display home visit.</p>
-		</div>
-		<div class="col-sm-4">
-			<img src="images/demo/head3.jpg" alt="family" />
-			<h4>KNOCKDOWN REBUILD</h4>
-			<p>Love where you live but would like a new home? Why not Knockdown & Rebuild? YC building gives you hassle-free as we provide a range of services including Development Approval, Demolition, and design upon your choice so that you can expect what is going to happen. Please contact us to discuss your needs, the process and advice on the available options.</p>
+	<h2 class="ani_add">Company Profile</h2>
+	<div  class="ani_add"><p>Building your dream house can be sometimes stressful. At YC Building, we can make it so much easier as we are committed to listen to your needs and fulfil it in a professional way. With almost 10 years experience in residential development industry, we constantly provide outstanding quality products and services. Please feel free to contact us today for a complementary quote.</p></div>
 
-	</div> -->
 </section>
 <!-- Page 3 -->
 <div class="overlay_Modal" id="MenuOverlayModal"></div>

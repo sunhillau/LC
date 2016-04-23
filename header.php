@@ -19,6 +19,7 @@
     <script type="text/javascript" src="js/jquery.form.js"></script>
 	<script type="text/javascript" src="js/contact.js"></script>
 	<script type="text/javascript" src="js/jquery.validate.additional_methods.js"></script>
+	<script type="text/javascript" src="http://stellar.aero/js/vendor.min.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="photoswipe.css"> 
 	<link rel="stylesheet" type="text/css" href="default-skin.css"> 
@@ -91,14 +92,13 @@ display: none;
 		<nav class="menu_overlay">
 			<ul class="unlist_style">
 					<li><a id="nav_containerlink" href="#">Home</a></li>
-					<li><a id="second_pagelink" href="#">What We Do</a></li>
-					<li><a id="gallerylink" href="#">Our Work</a></li>
-					<li><a id="testimoniallink" href="#">Testimonial</a></li>
-				<li><a id="contact_uslink" href="#">Contact Us</a></li>
+					<li><a id="second_pagelink" href="#">Company</a></li>
+					<li><a id="gallerylink" href="#">Portfolio</a></li>
+					<li><a id="contact_uslink" href="#">Contact</a></li>
 			</ul>
 		</nav>
 		<div class="home_content_container">
-			 <div class="home_content">
+			 <div class="home_content anim_fadeup" style="visibility: visible; animation-name: fadeup;">
 			 		<div class="mid_content">
 						 <h1>YOUR DREAM HOUSE</h1>
 						 <p style="color:#fff;">Listen better. Plan better. Build better.</p>
