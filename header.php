@@ -26,27 +26,6 @@
 	<script type="text/javascript" src="js/photoswipe.min.js"></script>
 	<script type="text/javascript" src="js/photoswipe-ui-default.min.js"></script>
 	
-	
-	
-<!-- <script type="text/css">	
-.my-gallery {
-  width: 100%;
-  float: left;
-}
-.my-gallery img {
-  width: 100%;
-  height: auto;
-}
-.my-gallery figure {
-  display: block;
-  float: left;
-  margin: 0 5px 5px 0;
-  width: 150px;
-}
-.my-gallery figcaption {
-  display: none;
-}
-</script> -->
 
  <style type="text/css">
 
@@ -112,6 +91,9 @@ display: none;
 		<!-- HOME page Bottom Part -->
 		<div class="under_bk cevc">
 			<a href="tel:+61448888045"><button>CALL US</button></a><button id="GetQuoteMobile">GET QUOTES</button>
+		</div>
+		<div class="draw_lines">
+			<svg style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); transform-origin: 0px 0px 0px;" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1440 810" height="810" width="1440" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="animationMask_7gFGLMp9Rp"><rect y="0" x="0" height="810" width="1440"></rect></clipPath></defs><g style="-moz-user-select: none;" clip-path="url(#animationMask_7gFGLMp9Rp)"><path d=" M-744,35 C-283,-183 174,-281 744,-71" transform="matrix(1,0,0,1,720,405)" stroke-width="1.5" stroke-opacity="0" stroke="#ffffff" fill-opacity="0" stroke-miterlimit="4" stroke-linejoin="miter" stroke-linecap="butt"></path><path transform="matrix(1,0,0,1,720,521)" stroke-width="1.5" stroke-opacity="0.001224147985889823" stroke="#ffffff" d=" M-755,30 C-277,-261 450,-422 788,-397" fill-opacity="0" stroke-miterlimit="4" stroke-linejoin="miter" stroke-linecap="butt"></path></g></svg>
 		</div>
 
 	</section>
