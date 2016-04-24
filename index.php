@@ -6,8 +6,8 @@
 <section class="second_page" id="scroll-to" data-stellar-background-ratio="0.5" style="visibility: hidden">
 
 
-	<h2 class="ani_add">Company Profile</h2>
-	<div  class="ani_add"><p>Building your dream house can be sometimes stressful. At YC Building, we can make it so much easier as we are committed to listen to your needs and fulfil it in a professional way. With almost 10 years experience in residential development industry, we constantly provide outstanding quality products and services. Please feel free to contact us today for a complementary quote.</p></div>
+	<h1>Company Profile</h1>
+	<div><p style="font-size:1.25em; line-height: 2em;">Building your dream house can be sometimes stressful. At YC Building, we can make it so much easier as we are committed to listen to your needs and fulfil it in a professional way. With almost 10 years experience in residential development industry, we constantly provide outstanding quality products and services. Please feel free to contact us today for a complementary quote.</p></div>
 
 </section>
 <!-- Page 3 -->

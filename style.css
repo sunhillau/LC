@@ -195,7 +195,7 @@ html, body { height: 100%; min-width: 320px; }
 /* line 454, sass/style.scss */
 .second_page { display: block; background: #fff; width: 100%; padding: 10px 5% 10px 5%; text-align: justify; color: #000000; }
 /* line 461, sass/style.scss */
-.second_page h2 { margin-bottom: 10px; text-align: center; padding-top: 5%; }
+.second_page h1 { margin-bottom: 10px; text-align: center; padding-top: 5%; }
 /* line 466, sass/style.scss */
 .second_page p { padding: 5% 20%; }
 
