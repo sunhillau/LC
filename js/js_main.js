@@ -52,8 +52,9 @@ $(window).scroll(function() {
 
 $(document).ready(function(){
 	backgroundResize();
-
-   
+	
+	$(window).stellar();
+	
 	$('#menu_icon').click(function(){
 		$('.menu_overlay').toggleClass('menu_overlay_push');
 		$("#MobileMenuOverlay").hide();

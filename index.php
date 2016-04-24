@@ -3,7 +3,7 @@
 ?>
 
 <!-- Page 2 -->
-<section class="second_page" id="scroll-to">
+<section class="second_page" id="scroll-to" data-stellar-background-ratio="0.5" >
 
 
 	<h2 class="ani_add">Company Profile</h2>
@@ -12,7 +12,7 @@
 </section>
 <!-- Page 3 -->
 <div class="overlay_Modal" id="MenuOverlayModal"></div>
-<section class="gallery">
+<section class="gallery" >
 		<div class="container_box_dk">
 			<h2>OUR WORK</h2>
 			<div class="little_line"></div>

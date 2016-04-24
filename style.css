@@ -484,3 +484,7 @@ footer p { color: #fff; }
 @media screen and (min-width: 958px) and (max-width: 1015px) { /* fix height issue in map area */
   /* line 1051, sass/style.scss */
   .contact_form_div { margin-top: 32px; } }
+
+  section{
+  background-attachment: fixed;
+  }
