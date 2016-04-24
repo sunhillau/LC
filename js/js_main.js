@@ -45,7 +45,7 @@ $(window).scroll(function() {
        wH = $(window).height(),
        wS = $(this).scrollTop();
    if (wS > (hT+hH-wH)){
-       $('#scroll-to').addClass('anim_fadein');
+       $('#scroll-to').addClass('anim_fadein_slow').css('visibility','visible');
    }
 });
 

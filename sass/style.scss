@@ -161,6 +161,10 @@ $background_test: #fff;
 	-webkit-animation:fadein 1200ms ease forwards;
 	animation:fadein 1200ms ease forwards
 }
+.anim_fadein_slow {
+	-webkit-animation:fadein 2200ms ease forwards;
+	animation:fadein 2200ms ease forwards
+}
 .anim_fadein--quick {
 	-webkit-animation:fadein 400ms ease forwards;
 	animation:fadein 400ms ease forwards
@@ -1055,3 +1059,7 @@ p { color: #fff ; }
 		margin-top: 32px;
 	}
 }
+
+ section{
+  background-attachment: fixed;
+  }
