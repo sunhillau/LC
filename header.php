@@ -25,6 +25,7 @@
 	<link rel="stylesheet" type="text/css" href="default-skin.css"> 
 	<script type="text/javascript" src="js/photoswipe.min.js"></script>
 	<script type="text/javascript" src="js/photoswipe-ui-default.min.js"></script>
+
 	
 
  <style type="text/css">
@@ -38,7 +39,7 @@ display: none;
 </head>
 <body>
 	<div id="preload">
-	<img id="imageload" src="images/demo/house1_ex.jpg" width="0" height="0" />
+	<img id="imageload" src="images/demo/house1_ex.jpg" width="0" height="0"/>
 	</div>
 <!--[if lt IE 9]>
 <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com">upgrade your browser</a> to improve your experience.</p>

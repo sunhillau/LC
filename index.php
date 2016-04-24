@@ -14,7 +14,7 @@
 <div class="overlay_Modal" id="MenuOverlayModal"></div>
 <section class="gallery" >
 		<div class="container_box_dk">
-			<h2>OUR WORK</h2>
+			<h2>Company Portfolio</h2>
 			<div class="little_line"></div>
 		</div><!-- give ID gl_id_1 -->
 		<div class="gl_container">
